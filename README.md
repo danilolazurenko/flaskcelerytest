@@ -3,7 +3,6 @@
 Example of how to handle background processes with Flask, Celery, and Docker.
 
 ### Quick Start
-Rename gitignore to .gitignore
 
 Spin up the containers:
 
