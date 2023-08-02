@@ -1,0 +1,34 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<div class="starter-template">
+  <h1>Flask + Celery + Docker</h1>
+  <hr><br>
+  <div>
+    <h3>Tasks</h3>
+    <p>Pick a task length.</p>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary" onclick="handleClick('files_download')">Download Files</button>
+      <button type="button" class="btn btn-primary" onclick="handleClick('save_to_mongo')">Save To Mongo</button>
+    </div>
+  </div>
+  <br><br>
+  <div>
+    <h3>Task Status</h3>
+    <br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Status</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody id="tasks">
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+celery==5.2.3
+Flask==2.0.3
+Flask-WTF==1.0.0
+pytest==7.0.1
+redis==4.1.4
+requests==2.31.0
+pymongo==4.4.1
